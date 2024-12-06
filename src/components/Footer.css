@@ -1,0 +1,41 @@
+.footer {
+    background-color: #2c3e50; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 20px; /* Space inside the footer */
+    text-align: center; /* Center the content */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow above the footer */
+    margin-top: 40px; /* Space above the footer */
+}
+
+.footer-content {
+    max-width: 800px; /* Restrict the content width */
+    margin: 0 auto; /* Center align content */
+}
+
+.team-name {
+    font-size: 1.5rem; /* Bigger font for team name */
+    font-weight: bold;
+    margin-bottom: 15px; /* Space below the team name */
+}
+
+.team-members {
+    display: flex;
+    justify-content: center; /* Align members horizontally */
+    gap: 15px; /* Space between names */
+    flex-wrap: wrap; /* Wrap to a new line if needed */
+}
+
+.team-members span {
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid #ffffff; /* Border around each name */
+    padding: 5px 10px; /* Space inside each name block */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+
+.team-members span:hover {
+    background-color: #16a085; /* Highlight color on hover */
+    color: #ffffff;
+    cursor: pointer;
+}
